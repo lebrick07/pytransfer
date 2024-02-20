@@ -55,7 +55,7 @@ File downloaded successfully from Google Drive.
 Uploading: 100%|█████████████████████████████| 646M/646M [00:19<00:00, 32.3MB/s]
 File uploaded successfully to AWS S3.
 ```
-2. If you've selected to choose a local file to upload, pass the file name. And the name you want the file to be copied to.
+2. If you've chosen to upload a local file, pass the file name. And the name you would like the file to be saved as at rest in S3.
 ```
 Enter '1' to upload from Google Drive or '2' to upload from local machine: 2
 Enter the path of the file to upload: vid.mp4
