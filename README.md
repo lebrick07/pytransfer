@@ -18,9 +18,8 @@ Make sure to keep this credentials.json file secure and don't expose it publicly
 
 ## AWS setup
 1. Go to S3 and create S3 bucket, for example `lebrick-file-transfer`
-2. Get AWS access keys (access and secret keys) from an AWS service account. Use these credentials in the code here:
+2. Get AWS access keys (access and secret keys) from an AWS service account. Use these credentials in the code here (in transfer.py):
 ```
-# AWS S3 setup
 AWS_ACCESS_KEY_ID = 'YOUR_AWS_ACCESS_KEY_ID'
 AWS_SECRET_ACCESS_KEY = 'YOUR_AWS_SECRET_ACCESS_KEY'
 S3_BUCKET_NAME = 'bucket'
