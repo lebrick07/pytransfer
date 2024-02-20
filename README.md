@@ -38,10 +38,23 @@ Run the following command to initiate file transfer
 ```
 python3 transfer.py
 ```
-You will need to input 
+You will need to indicate if you're uploading a file from your local machine or from Google Drive.
 ```
-Enter the Google Drive file ID: 1wMTvl4vx6O2RwwODP2SdoQpOOvR3ACTy
+Enter '1' to upload from Google Drive or '2' to upload from local machine: 2
+```
+1. If you've selected option 1 you will need to input the Google Drive file ID and the name of the file.
+```
+Enter the Google Drive file ID: 1wM4vl4ax6O2RwwODP2SdoQpO1eR3ASTy
 Enter the desired file name to save: test.csv 
 File downloaded successfully from Google Drive.
+File uploaded successfully to AWS S3.
+```
+2. If you've selected to choose a local file to upload, pass the file name. And the name you want the file to be copied to.
+```
+Enter '1' to upload from Google Drive or '2' to upload from local machine: 2
+Enter the path of the file to upload: vid.mp4
+Enter the desired file name to save: vid.mp4
+File renamed successfully.
+Uploading: 100%|█████████████████████████████| 651M/651M [00:20<00:00, 31.7MB/s]
 File uploaded successfully to AWS S3.
 ```
