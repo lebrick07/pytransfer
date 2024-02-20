@@ -2,7 +2,7 @@
 Transferring files from gdrive to AWS S3
 
 ## GCP setup
-# Create Service Account
+### Create Service Account
 1. Go to the Google Cloud Console: https://console.cloud.google.com/
 2. Create a new project or select an existing one.
 3. In the left sidebar, click on "IAM & Admin" > "Service accounts".
