@@ -15,10 +15,8 @@ SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
 SERVICE_ACCOUNT_FILE = 'credentials.json'  # Path to your service account credentials file
 
 # AWS S3 setup
-# AWS_ACCESS_KEY_ID = 'YOUR_AWS_ACCESS_KEY_ID'
-# AWS_SECRET_ACCESS_KEY = 'YOUR_AWS_SECRET_ACCESS_KEY'
-AWS_ACCESS_KEY_ID = 'AKIATETBQ2QTI5DXCBUH'
-AWS_SECRET_ACCESS_KEY = 'ohKsXhxaUx/tFF1wSJ+WF1te/bNEgyZ4G+ldjBNI'
+AWS_ACCESS_KEY_ID = 'YOUR_AWS_ACCESS_KEY_ID'
+AWS_SECRET_ACCESS_KEY = 'YOUR_AWS_SECRET_ACCESS_KEY'
 S3_BUCKET_NAME = 'iby-file-transfer-bucket'
 
 # Initialize Google Drive API
