@@ -1,6 +1,8 @@
 # pytransfer
 Transferring files from gdrive to AWS S3
 
+DISCLAIMER: If you are uploading a local file to S3, skip to <a href="https://github.com/lebrick07/pytransfer/tree/main?tab=readme-ov-file#execute-code">Execute Code<a> section.
+
 ## Pre-Reqs
 1. Make sure you have Python3 and pip installed
     - For Windows installation go to this link https://www.python.org/downloads/windows/
