@@ -1,6 +1,10 @@
 # pytransfer
 Transferring files from gdrive to AWS S3
 
+## Pre-Reqs
+1. Make sure you have Python3 and pip installed.
+2. Install the following Python packages: `googleapiclient`, `google`, `boto3`, `tqdm`, `pydrive`
+
 ## GCP setup
 ### Create Service Account
 1. Go to the Google Cloud Console: https://console.cloud.google.com/
