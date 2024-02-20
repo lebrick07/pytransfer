@@ -25,15 +25,15 @@ AWS_SECRET_ACCESS_KEY = 'YOUR_AWS_SECRET_ACCESS_KEY'
 S3_BUCKET_NAME = 'bucket'
 ```
 
-## Google Drive
-# Share Google Drive file with GCP Service Account
+# Google Drive
+## Share Google Drive file with GCP Service Account
 1. Share the CSV file that exists in your Google Drive with the GCP Service Account.1. Go to your Google Drive in a web browser.
 2. Right-click on the folder or file you want to share and select "Share".
 3. In the "Share with people and groups" dialog, enter the email address of your service account. You can find the email address in the Google Cloud Console under "IAM & Admin" > "Service accounts". It will be in the format [SERVICE_ACCOUNT_NAME]@[PROJECT_ID].iam.gserviceaccount.com.
 4. Set the access permissions for the service account (e.g., "Viewer", "Editor", or "Owner") depending on what level of access you want to grant.
 5. Click "Send" to share the folder or file with the service account.
 
-## Execute code
+# Execute code
 Run the following command to initiate file transfer
 ```
 python3 transfer.py
