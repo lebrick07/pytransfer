@@ -2,8 +2,16 @@
 Transferring files from gdrive to AWS S3
 
 ## Pre-Reqs
-1. Make sure you have Python3 and pip installed.
+1. Make sure you have Python3 and pip installed
+    - For Windows installation go to this link https://www.python.org/downloads/windows/
+    - For Mac run this command in CLI
+```
+brew install python3
+```
 2. Install the following Python packages: `googleapiclient`, `google`, `boto3`, `tqdm`, `pydrive`
+```
+pip3 install googleapiclient google boto3 tqdm pydrive
+```
 
 ## GCP setup
 ### Create Service Account
