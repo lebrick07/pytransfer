@@ -48,9 +48,11 @@ Enter '1' to upload from Google Drive or '2' to upload from local machine: 2
 ```
 1. If you've selected option 1 you will need to input the Google Drive file ID and the name of the file.
 ```
-Enter the Google Drive file ID: 1wM4vl4ax6O2RwwODP2SdoQpO1eR3ASTy
-Enter the desired file name to save: test.csv 
+Enter the Google Drive file ID: 5Agbgdorkpa3TuxoZOd0DtIqN6qn-B_xD
+Enter the desired file name to save: vid.mp4
+Downloading: 646MB [08:01, 1.34MB/s]
 File downloaded successfully from Google Drive.
+Uploading: 100%|█████████████████████████████| 646M/646M [00:19<00:00, 32.3MB/s]
 File uploaded successfully to AWS S3.
 ```
 2. If you've selected to choose a local file to upload, pass the file name. And the name you want the file to be copied to.
