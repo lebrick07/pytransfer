@@ -50,11 +50,11 @@ Run the following command to initiate file transfer
 ```
 python3 transfer.py
 ```
-You will need to indicate if you're uploading a file from your local machine or from Google Drive.
+Indicate if you're uploading a file from your local machine or from Google Drive.
 ```
 Enter '1' to upload from Google Drive or '2' to upload from local machine: 2
 ```
-1. If you've selected option 1 you will need to input the Google Drive file ID and the name of the file.
+1. If you've selected option 1 then input the Google Drive file ID and the name of the file.
 ```
 Enter the Google Drive file ID: 5Agbgdorkpa3TuxoZOd0DtIqN6qn-B_xD
 Enter the desired file name to save: vid.mp4
